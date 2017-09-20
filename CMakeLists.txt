@@ -12,3 +12,5 @@ add_subdirectory(src)
 
 add_executable(main_exe ${SOURCE_FILES})
 target_link_libraries(main_exe payroll_library)
+target_link_libraries(main_exe payroll_library)
+
